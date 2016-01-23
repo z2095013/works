@@ -1,0 +1,5 @@
+vpx  = vCenter
+  vpxd = vCenter-server = WebClientServer
+  vpxa = vCenter-agent
+
+EULA = 使用許諾契約
