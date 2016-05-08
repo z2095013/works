@@ -7,7 +7,6 @@ import os, sys, csv, fileinput
 
 
 
-
 def time_select(self,F_TIME, T_TIME):
     '''集計期間
 
@@ -17,10 +16,20 @@ def time_select(self,F_TIME, T_TIME):
     self.t = T_TIME
 
     DIR = []     # 対象ディレクトリをリスト化
+    CSVS = []    # DIRからファイルのリスト化
+
+    [d + f for d in DIR for f in CSVS]
 
 
 
 
+
+    list(zip(*mat)) # リストを行から列へ
+
+    c = sum(1 for line in open('filename')) # ファイルの行数
+    c = len(sys.stdin.readlines())
+
+    [x for v in len(c)]
 
 
 
@@ -68,6 +77,8 @@ def data_select(self, DIR):
 
 
 
+
+    s = a.sort()   # リスト内の値をソートする
 
 
     a = range(100)
